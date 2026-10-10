@@ -1,0 +1,11 @@
+{
+  "oracle": "Python datetime.date.weekday",
+  "complete_cycle": "1600-01-01 to 1999-12-31",
+  "cycle_dates": 146097,
+  "total_date_comparisons": 496062,
+  "year_range": [
+    1,
+    9999
+  ],
+  "mismatches": 0
+}

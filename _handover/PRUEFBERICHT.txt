@@ -1,0 +1,75 @@
+BDAYMETHOD · PRÜFBERICHT
+10. Oktober 2026 · Version 20261010-1
+
+AUSGANGSBASIS
+Bdaym.zip aus der aktuellen Nachricht. Die Startdatei index.html stimmt
+bytegenau mit der am 10. Oktober abgerufenen Live-Version überein.
+Die bisherige Live-Seite wurde zusätzlich im Browser geöffnet.
+Das Originalarchiv und seine extrahierten Quelldateien sind unverändert.
+SHA-256 des Originalarchivs:
+c6b2a12fdaad6d94c0ec3197bb1381ca3b1ad2e23566d077c85f30b2a7bba028
+
+GESTALTUNGSREFERENZ
+Aktuelle Live-Version von brats11.com, einschließlich Stylesheet und
+Booklet-Verweis, Versionskennung 20261009-3. Nicht nur ein älteres ZIP.
+
+UMGESETZT
+- Vier Lernstufen im BRATS11-Stil, jeweils mit Erklärung und Übungen.
+- Jahrhundertanker 1643 mit korrekter Zuordnung im 400-Jahre-Zyklus.
+- 28, 56 oder 84 zuerst von den letzten beiden Jahresziffern abziehen.
+- Jahresbeitrag, ganzer Anteil der Division durch 4, Wochenreste und
+  Jahresanker werden getrennt erklärt und geprüft.
+- Monatsanker einschließlich Januar/Februar und Schaltjahr-Ausnahmen.
+- Vollständige Datumsrechnung, auch mit negativen Tagesabständen.
+- Geführter Modus und Kopfmodus; Lösungen sind bewusst aufdeckbar.
+- Datumsrechner für eigene Daten einschließlich vollständigem Rechenweg.
+- Deutsche, US-englische und kanadisch-französische Oberfläche.
+- Gemeinsamer Booklet-Link wie BRATS11 und Querverweis auf BRATS11.
+- Frei nutzbares Training ohne Konten, Lizenzschlüssel oder Zahlungsprozess.
+- Sprachspeicherung funktioniert auch bei gesperrtem Browserspeicher.
+- Lesbare statische englische Inhalte ohne JavaScript.
+- Betreiberangaben inklusive SIREN/RCS aus der aktuellen BRATS11-Seite;
+  Hostingangabe anhand der Live-Auslieferung auf GitHub Pages abgestimmt.
+
+UNABHÄNGIGE MATHEMATIKPRÜFUNG: BESTANDEN
+Vergleich des ausgelieferten JavaScript-Rechenkerns mit Python datetime,
+also ohne Wiederverwendung der Bday-Berechnungsformel als Referenz.
+496,062 Datumsvergleiche, 0 Abweichungen.
+Darin: sämtliche 146,097 Tage von 1600-01-01 bis 1999-12-31.
+Außerdem in jedem Jahr von 1 bis 9999 für jeden Monat der erste Tag,
+der letzte Tag und der Monatsanker (überschneidende Tage einmal).
+Zusätzlich: Identität der 28er-Abkürzung für alle zweistelligen Jahreswerte
+in vier aufeinanderfolgenden Jahrhunderten sowie ungültige Eingaben.
+
+BEDIENLOGIK UND STRUKTUR: BESTANDEN
+1823 Assertions in automatisierten DOM- und ergänzenden Engine-Tests.
+Alle 8 Seiten in allen 3 Sprachen: vollständige Texte, Feldbeschriftungen,
+eindeutige IDs, interne Datei- und Ankerverweise, unveränderter Booklet-Link.
+Datumsrechner: 25.12.1981, Schaltjahre, 1900/2000/2100, Jahre 1 und 9999;
+ungültige Daten, leere Eingaben, Dezimal- und Exponentialschreibweisen.
+Trainer: leere, falsche und richtige Antworten; Sprachwechsel;
+kein mehrfaches Zählen derselben gelösten Aufgabe; nach aufgedeckter Lösung
+keine Punkte, auch nicht durch Wechsel von Sprache oder Trainingsmodus.
+Auch unbekannte Sprachparameter und blockierter Speicher wurden geprüft.
+
+RESPONSIVE REGELN: BESTANDEN
+CSS-Regelauflösung bei 9 Breiten von 320 bis 1440 Pixeln.
+Navigation bleibt erreichbar, Felder stehen auf schmalen Bildschirmen
+untereinander, ausgeblendete Lösungen bleiben tatsächlich ausgeblendet.
+Fokusmarkierungen, Sprunglink, beschriftete Eingaben, Textfeedback zusätzlich
+zur Farbmarkierung und reduzierte Bewegung sind im Quellcode vorgesehen.
+
+GRENZE DIESER PRÜFUNG
+Die DOM-Tests simulieren die Bedienlogik; sie ersetzen keinen vollständigen
+Browser- oder Screenreader-Test. Die responsiven Tests prüfen CSS-Regeln,
+nicht die tatsächlich gerenderte Darstellung. Der Cloud-Browser konnte die
+lokale neue Fassung nicht öffnen. Deshalb wird keine visuelle Desktop- oder
+Mobilfreigabe behauptet. Der abschließende visuelle Browsercheck der neuen
+Version ist nach Veröffentlichung nachzuholen.
+Die neue Fassung wurde in diesem Arbeitsgang nicht live veröffentlicht.
+Der noch nicht verfügbare Booklet-Link ist auf Wunsch unverändert enthalten
+und kein ungeklärter Fehler. Payhip, Booklet-Erstellung und Singer-Shamrock-
+Umzug sind nicht Bestandteil dieses Website-Pakets.
+
+ROHDATEN
+math-results.json, dom-results.json und css-results.json liegen daneben.

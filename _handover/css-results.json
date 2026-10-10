@@ -1,0 +1,59 @@
+{
+  "method": "CSS rule resolution in Happy DOM; not a browser layout or visual test",
+  "results": [
+    {
+      "width": 320,
+      "navigation": "flex",
+      "fields": "1fr",
+      "hiddenSolution": "none"
+    },
+    {
+      "width": 360,
+      "navigation": "flex",
+      "fields": "1fr",
+      "hiddenSolution": "none"
+    },
+    {
+      "width": 390,
+      "navigation": "flex",
+      "fields": "1fr",
+      "hiddenSolution": "none"
+    },
+    {
+      "width": 680,
+      "navigation": "flex",
+      "fields": "1fr",
+      "hiddenSolution": "none"
+    },
+    {
+      "width": 768,
+      "navigation": "flex",
+      "fields": "repeat(3, minmax(0, 1fr))",
+      "hiddenSolution": "none"
+    },
+    {
+      "width": 900,
+      "navigation": "flex",
+      "fields": "repeat(3, minmax(0, 1fr))",
+      "hiddenSolution": "none"
+    },
+    {
+      "width": 1050,
+      "navigation": "flex",
+      "fields": "repeat(3, minmax(0, 1fr))",
+      "hiddenSolution": "none"
+    },
+    {
+      "width": 1280,
+      "navigation": "flex",
+      "fields": "repeat(3, minmax(0, 1fr))",
+      "hiddenSolution": "none"
+    },
+    {
+      "width": 1440,
+      "navigation": "flex",
+      "fields": "repeat(3, minmax(0, 1fr))",
+      "hiddenSolution": "none"
+    }
+  ]
+}
